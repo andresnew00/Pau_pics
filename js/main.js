@@ -47,23 +47,6 @@ $(document).ready(function() {
   }
 
   // ========================================================================= //
-  //  //NAVBAR SHOW - HIDE
-  // ========================================================================= //
-
-
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 200 ) {
-      $("#main-nav, #main-nav-subpage").slideDown(700);
-      $("#main-nav-subpage").removeClass('subpage-nav');
-    } else {
-      $("#main-nav").slideUp(700);
-      $("#main-nav-subpage").hide();
-      $("#main-nav-subpage").addClass('subpage-nav');
-    }
-  });
-
-  // ========================================================================= //
   //  // RESPONSIVE MENU
   // ========================================================================= //
 
@@ -79,7 +62,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      strings: ["Paulalala", "Emprendedora.", "Malandra.", "Vendedora de Pantaletas en el centro."],
       typeSpeed: 100,
       loop: true,
     });
