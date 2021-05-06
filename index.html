@@ -47,7 +47,7 @@
       <div class="row">
         <div class="container">
           <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            <a href="index.html"><img src="images/Logo Paula Pau Pics.png" alt="logo" /></a>
           </div>
 
           <div class="responsive">
@@ -70,7 +70,8 @@
     <div id="header" class="home">
         <div class="header-content">
           <div class="main-content">
-            <h1>Bienvenid@ al espacio de Pau Pics</h1>
+            <h1>Bienvenid@ <span class="pinkLetter">al espacio de Pau Pics</span></h1>
+            <div class="rectangle"></div>
             <!-- <h1>I'm <span class="typed"></span></h1> -->
             <p>
               Aquí podrás impulsar la imagen de tu negocio al siguiente nivel.
@@ -80,7 +81,7 @@
               clientes.
             </p>
 
-            <button><a href="#portfolio" class="smoothScroll">VER PORTAFOLIO</a></button>
+            <button class="portfolioButton"><a href="#portfolio" class="smoothScroll">VER PORTAFOLIO</a></button>
           </div>
           <img class="main-image" src="images/Profile Pic 1.png"></img>
         </div>
@@ -93,7 +94,7 @@
         <div class="row justify-content-between">
           <div class="about-descr">
             <p class="p-heading">
-              ¡Hola! Soy Paula, Diseñadora Gráfica Freelancer y estoy aquí para
+              <span class="pinkLetter">¡Hola!</span> <span class="bold">Soy Paula,</span> Diseñadora Gráfica Freelancer y estoy aquí para
               ayudarte a crear o reinventar la imagen de tu marca.
             </p>
             <p class="p-heading">
@@ -101,8 +102,8 @@
               tuyo, brindándoles las herramientas para proyectar sus marcas
               diferenciandolos de la multitud.
             </p>
-            <p class="separator">
-              ¡Trabajemos en equipo! Juntemos mi creatividad con tus
+            <p class="p-heading">
+              <span class="background-text bold"> ¡Trabajemos en equipo! </span><br/> Juntemos mi creatividad con tus
               conocimientos para plasmar la imagen de tu marca en la mente de
               tus clientes.
             </p>
@@ -178,7 +179,7 @@
     <div id="portfolio" class="text-center paddsection">
       <div class="container">
         <div class="section-title text-center">
-          <h2>My Portfolio</h2>
+          <h2>Mi Portafolio</h2>
         </div>
       </div>
 
@@ -283,7 +284,7 @@
                         name="name"
                         class="form-control"
                         id="name"
-                        placeholder="Your Name"
+                        placeholder="Nombre"
                         data-rule="minlen:4"
                         data-msg="Please enter at least 4 chars"
                       />
@@ -298,24 +299,38 @@
                         class="form-control"
                         name="email"
                         id="email"
-                        placeholder="Your Email"
+                        placeholder="Apellido"
                         data-rule="email"
                         data-msg="Please enter a valid email"
                       />
                       <div class="validation"></div>
                     </div>
                   </div>
-
-                  <div class="col-lg-12">
-                    <div class="form-group">
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
                       <input
                         type="text"
+                        name="name"
                         class="form-control"
-                        name="subject"
-                        id="subject"
-                        placeholder="Subject"
+                        id="name"
+                        placeholder="Correo Electrónico"
                         data-rule="minlen:4"
-                        data-msg="Please enter at least 8 chars of subject"
+                        data-msg="Please enter at least 4 chars"
+                      />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Número Telefónico"
+                        data-rule="email"
+                        data-msg="Please enter a valid email"
                       />
                       <div class="validation"></div>
                     </div>
@@ -329,7 +344,7 @@
                         rows="12"
                         data-rule="required"
                         data-msg="Please write something for us"
-                        placeholder="Message"
+                        placeholder="Mensaje"
                       ></textarea>
                       <div class="validation"></div>
                     </div>
@@ -339,7 +354,7 @@
                     <input
                       type="submit"
                       class="btn btn-defeault btn-send"
-                      value="Send message"
+                      value="¡Trabajemos tus ideas!"
                     />
                   </div>
                 </div>
@@ -357,36 +372,21 @@
         <div class="socials-media text-center">
           <ul class="list-unstyled">
             <li>
-              <a href="#"><i class="ion-social-facebook"></i></a>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><i class="ion-social-twitter"></i></a>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><i class="ion-social-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ion-social-googleplus"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ion-social-tumblr"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ion-social-dribbble"></i></a>
+              <a href="#"><ion-icon name="logo-behance"></ion-icon></a>
             </li>
           </ul>
         </div>
 
-        <p>&copy; Copyrights Folio. All rights reserved.</p>
+        <p>&copy; Copyrights PauPics. All rights reserved.</p>
 
         <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://designdesk.tech/">Design Desk</a>
         </div>
       </div>
     </div>
@@ -400,6 +400,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
