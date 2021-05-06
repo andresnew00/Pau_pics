@@ -1,4 +1,3 @@
-
 /*
   Theme Name: Folio
   Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -12,7 +11,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -27,7 +26,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -60,8 +64,9 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
-  color: #b8a07e;
+a:hover,
+a:focus {
+  color: #996D6E;
   text-decoration: underline;
 }
 
@@ -91,12 +96,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #996D6E;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #996D6E;
   color: #fff;
 }
 
@@ -112,7 +117,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -165,7 +171,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #996D6E;
 }
 
 .mb-30 {
@@ -197,7 +203,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -208,7 +214,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -245,21 +251,26 @@ nav ul li a {
 }
 
 .main-image {
-  width: 50%;
-  height: 100%;
-  background: url("../images/Profile\ Pic\ 1.png") repeat scroll center center / cover;
+  grid-area: image;
+  width: 30em;
 }
 
+.main-content {
+  grid-area: contenido;
+}
 
 #header .header-content {
   display: flex;
-  
+  padding-top: 10vh;
   height: 100vh;
+  align-items: center;
+  gap: 2em;
   text-align: left;
   width: 100%;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .header-content h1 {
@@ -300,7 +311,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #996D6E;
 }
 
 #about .div-img-bg .about-img img {
@@ -313,7 +324,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
 }
@@ -357,12 +368,11 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #996D6E;
   line-height: 44px;
 }
 
-
-.services-carousel  .owl-stage-outer {
+.services-carousel .owl-stage-outer {
   overflow: hidden;
 }
 
@@ -384,7 +394,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #996D6E;
 }
 
 .owl-nav {
@@ -416,7 +426,7 @@ nav ul li a {
   color: #999999;
   line-height: 16px;
   cursor: pointer;
-  font-family: 'Poppins', helvetica;
+  font-family: "Poppins", helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -427,8 +437,9 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
+  color: #996D6E;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -471,12 +482,12 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
 }
 
-
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -486,7 +497,7 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -496,7 +507,9 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 
@@ -549,7 +562,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #996D6E;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;

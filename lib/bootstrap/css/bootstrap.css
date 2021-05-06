@@ -555,8 +555,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
   margin-right: auto;
   margin-left: auto;
 }
