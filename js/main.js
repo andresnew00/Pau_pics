@@ -145,7 +145,6 @@ $(window).load(function(){
 $(window).load(function(){ 
   var counter = 0;
   $('.pinkLetter').on( 'click', function() {
-    console.log(counter)
     counter++;
     if(counter == 5) {
       $("#easter").show();
