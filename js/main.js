@@ -62,7 +62,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Paulalala", "Emprendedora.", "Malandra.", "Vendedora de Pantaletas en el centro."],
+      strings: ["Paula", "Quintero"],
       typeSpeed: 100,
       loop: true,
     });
@@ -125,6 +125,8 @@ $(document).ready(function() {
 // ========================================================================= //
 $(window).load(function(){
 
+  $('.portfolio-container').isotope({ filter: '.todo' });
+
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
     layoutMode: 'fitRows'
@@ -137,4 +139,16 @@ $(window).load(function(){
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
 
+})
+
+
+$(window).load(function(){ 
+  var counter = 0;
+  $('.pinkLetter').on( 'click', function() {
+    console.log(counter)
+    counter++;
+    if(counter == 5) {
+      $("#easter").show();
+    }
+  });
 })
