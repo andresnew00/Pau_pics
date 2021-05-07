@@ -9,6 +9,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
+  font-family: "Poppins", sans-serif;
   background: #ffffff;
   color: #2d2d2d;
   font-family: "Poppins", helvetica;
@@ -74,8 +75,8 @@ nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 12px;
-  color: #999999;
+  font-size: 15px;
+  color: #0a0a0a;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -98,7 +99,7 @@ nav ul li a {
 }
 
 .btn {
-  background-color: #D5A6A6;
+  background-color: #d5a6a6;
   border: none;
   border-radius: 0;
   color: #fff;
@@ -128,7 +129,7 @@ nav ul li a {
 
 .form-control {
   background-color: transparent;
-  border: 1px solid #D5A6A6;
+  border: 1px solid #d5a6a6;
   border-radius: 0;
   color: #999999;
   font-size: 12px;
@@ -183,10 +184,15 @@ nav {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-menu {
   float: right;
   line-height: 32px;
-  margin-bottom: 0;
   padding-top: 16px;
 }
 
@@ -198,13 +204,12 @@ nav ul li {
   margin-left: 40px;
 }
 
-
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 14px;
-  color: #999999;
+  font-size: 15px;
+  color: #000000;
   font-family: "Poppins", helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -214,12 +219,10 @@ nav ul li a {
 }
 
 .logo {
-  float: left;
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 5em;
 }
 
 .responsive {
@@ -228,7 +231,7 @@ nav ul li a {
 }
 
 .active {
-  color: #afafaf;
+  color: #000000;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -252,7 +255,6 @@ nav ul li a {
 
 #header .header-content {
   display: flex;
-  padding-top: 10vh;
   height: 100vh;
   align-items: center;
   gap: 2em;
@@ -273,12 +275,13 @@ nav ul li a {
 
 .rectangle {
   background-color: #996d6d;
-  width: 15em;
+  width: 17em;
   height: 0.5em;
 }
 
 .pinkLetter {
-  color: #8b787a;
+  font-weight: 500;
+  color: #b49092;
 }
 
 .header-content p {
@@ -352,7 +355,7 @@ button:hover {
 }
 
 #about .about-descr .p-heading {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #about .about-descr .separator {
@@ -368,6 +371,61 @@ button:hover {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service img {
+  width: 8em;
+}
+
+.service ul {
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.service .text {
+  text-align: start;
+}
+
+.service .titulo {
+  margin-top: 1em;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.service .main-service {
+  font-weight: 500;
+}
+
+.service .sub-class {
+  color: #996d6d;
+  padding-left: 1em;
+  font-weight: 400;
+}
+
+.lista-servicios {
+  margin-top: .5em;
+}
+
+.contact-contact img {
+  width: 30em;
+}
+
+#contact .col-lg-6 {
+  align-self: center;
 }
 
 .owl-item {
@@ -496,6 +554,25 @@ button:hover {
   width: 100%;
 }
 
+#contact .imagencitas {
+  width: 15em;
+}
+
+#contact ul {
+  list-style-type: space-counter;
+  font-weight: 700;
+  font-size: 1.4em;
+  padding-left: 2.8em;
+}
+
+#contact li {
+  padding-top: .5em;
+}
+
+.contact-contact {
+
+}
+
 .contact-details {
   list-style: none;
   margin: 0;
@@ -553,6 +630,16 @@ button:hover {
   background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.carlito {
+  display: none;
+  width: 2em;
+}
+
+.carlitovisible {
+  display: inline;
+  width: 2em;
 }
 
 #footer .socials-media {

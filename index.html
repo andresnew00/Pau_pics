@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -46,6 +48,7 @@
     <nav id="main-nav">
       <div class="row">
         <div class="container">
+          <div class="navbar-container">
           <div class="logo">
             <a href="index.html"><img src="images/Logo Paula Pau Pics.png" alt="logo" /></a>
           </div>
@@ -61,6 +64,7 @@
             <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
             <li><a href="#contact" class="smoothScroll">Contacto</a></li>
           </ul>
+        </div>
         </div>
       </div>
     </nav>
@@ -116,61 +120,71 @@
     <!-- start section services -->
     <div id="services">
       <div class="container">
-        <div class="services-carousel owl-theme">
-          <div class="services-block">
-            <i class="ion-ios-browsers-outline"></i>
-            <span>UI/UX DESIGN</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
-
-          <div class="services-block">
-            <i class="ion-ios-lightbulb-outline"></i>
-            <span>BRAND IDENTITY</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
-
-          <div class="services-block">
-            <i class="ion-ios-color-wand-outline"></i>
-            <span>WEB DESIGN</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
-
-          <div class="services-block">
-            <i class="ion-social-android-outline"></i>
-            <span>MOBILE APPS</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
-
-          <div class="services-block">
-            <i class="ion-ios-analytics-outline"></i>
-            <span>Analytics</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
-
-          <div class="services-block">
-            <i class="ion-ios-camera-outline"></i>
-            <span>PHOTOGRAPHY</span>
-            <p class="separator">
-              To an English person, it will seem like simplified English,told me
-              what
-            </p>
-          </div>
+        <div class="services-container">
+        <div class="service">
+          <img src="images/icon.png" alt="logo" />
+          <div class="text">
+          <h2 class="titulo">Imagen Corporativa</h2>
+          <ul class="lista-servicios">
+            <li class="main-service">Diseño de Logotipo</li>
+            <li class="main-service">Identidad Gráfica</li>
+            <li class="main-service">Contenido para RRSS</li>
+            <li class="sub-class">Posts para Instagram</li>
+            <li class="sub-class">Grilla de Contenido</li>
+            <li class="sub-class">Portadas para Highlights</li>
+            <li class="sub-class">Historias de Instagram</li>
+            <li class="sub-class">Armonización de Feed</li>
+            <li  class="main-service">Edición Digital de Imagenes</li>
+            <li class="sub-class">Fotomontaje</li>
+            <li class="sub-class">Correcciones</li>
+            <li class="sub-class">Edición Fotográfica Publicitaria</li>
+          </ul>
         </div>
+        </div>
+        <div class="service">
+          <img src="images/icon2.png" alt="logo" />
+          <div class="text">
+          <h2 class="titulo">Imprenta Personalizada</h2>
+          <ul class="lista-servicios">
+            <li class="main-service">Papelería</li>
+            <li class="sub-class">Tarjeta de Presentación</li>
+            <li class="sub-class">Diseño de Carpetas y Hojas</li>
+            <li class="sub-class">Calendarios</li>
+            <li class="sub-class">Etiquetas para Cuadernos</li>
+            <li class="sub-class">Toppers</li>
+            <li class="sub-class">Portadas para Cuadernos</li>
+            <li class="sub-class">Recetarios</li>
+            <li class="sub-class">Portadas para Agendas</li>
+            <li class="main-service">Servicio de Packing</li>
+            <li class="sub-class">Envases</li>
+            <li class="sub-class">Bolsas</li>
+            <li class="sub-class">Empaques</li>
+            <li class="sub-class">Etiquetas</li>
+          </ul>
+        </div>
+        </div>
+        <div class="service">
+          <img src="images/icon3.png" alt="logo" />
+          <div class="text">
+          <h2 class="titulo">Marketing Colateral</h2>
+          <ul class="lista-servicios">
+            <li class="main-service">Diseño Editorial</li>
+            <li class="sub-class">Flyers</li>
+            <li class="sub-class">Dípticos</li>
+            <li class="sub-class">Trípticos</li>
+            <li class="sub-class">Catálogos</li>
+            <li class="sub-class">Folletos</li>
+            <li class="sub-class">Articulos para revistas</li>
+            <li class="sub-class">Portadas de Libros</li>
+            <li class="sub-class">Certificados</li>
+            <li class="main-service">Publicidad Exterior</li>
+            <li class="sub-class">Banners</li>
+            <li class="sub-class">Afiches</li>
+            <li class="sub-class">Pendones</li>
+          </ul>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
     <!-- end section services -->
@@ -188,60 +202,235 @@
           <div class="col-md-12">
             <div class="portfolio-list">
               <ul class="nav list-unstyled" id="portfolio-flters">
-                <li class="filter filter-active" data-filter=".all">Todo</li>
-                <li class="filter" data-filter=".branding">Logotipos</li>
-                <li class="filter" data-filter=".mockups">Diseño para RRSS</li>
-                <li class="filter" data-filter=".uikits">Papeleria</li>
-                <li class="filter" data-filter=".webdesign">Testimonios</li>
+                <li class="filter filter-active" data-filter=".todo">Todo</li>
+                <li class="filter" data-filter=".logos">Logotipos</li>
+                <li class="filter" data-filter=".rrss">Diseño para RRSS</li>
+                <li class="filter" data-filter=".papeleria">Papeleria</li>
+                <li class="filter" data-filter=".testimonios">Testimonios</li>
               </ul>
             </div>
 
             <div class="portfolio-container">
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign"
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo rrss"
               >
-                <a class="popup-img" href="images/portfolio/1.jpg">
-                  <img src="images/portfolio/1.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/1.png">
+                  <img src="images/portfolio/1.png" alt="img" />
                 </a>
               </div>
 
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography"
+                class="col-lg-4 col-md-6 portfolio-thumbnail rrss"
               >
-                <a class="popup-img" href="images/portfolio/2.jpg">
-                  <img src="images/portfolio/2.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/2.png">
+                  <img src="images/portfolio/2.png" alt="img" />
                 </a>
               </div>
 
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn"
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo rrss"
               >
-                <a class="popup-img" href="images/portfolio/3.jpg">
-                  <img src="images/portfolio/3.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/3.png">
+                  <img src="images/portfolio/3.png" alt="img" />
                 </a>
               </div>
 
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography"
+                class="col-lg-4 col-md-6 portfolio-thumbnail rrss"
               >
-                <a class="popup-img" href="images/portfolio/4.jpg">
-                  <img src="images/portfolio/4.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/4.png">
+                  <img src="images/portfolio/4.png" alt="img" />
                 </a>
               </div>
 
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography"
+                class="col-lg-4 col-md-6 portfolio-thumbnail rrss"
               >
-                <a class="popup-img" href="images/portfolio/5.jpg">
-                  <img src="images/portfolio/5.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/5.png">
+                  <img src="images/portfolio/5.png" alt="img" />
                 </a>
               </div>
 
               <div
-                class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign"
+                class="col-lg-4 col-md-6 portfolio-thumbnail rrss"
               >
-                <a class="popup-img" href="images/portfolio/6.jpg">
-                  <img src="images/portfolio/6.jpg" alt="img" />
+                <a class="popup-img" href="images/portfolio/6.png">
+                  <img src="images/portfolio/6.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail rrss"
+              >
+                <a class="popup-img" href="images/portfolio/7.png">
+                  <img src="images/portfolio/7.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo logos"
+              >
+                <a class="popup-img" href="images/portfolio/8.png">
+                  <img src="images/portfolio/8.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/9.png">
+                  <img src="images/portfolio/9.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/10.png">
+                  <img src="images/portfolio/10.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/11.png">
+                  <img src="images/portfolio/11.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/12.png">
+                  <img src="images/portfolio/12.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/13.png">
+                  <img src="images/portfolio/13.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/14.png">
+                  <img src="images/portfolio/14.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail logos"
+              >
+                <a class="popup-img" href="images/portfolio/15.png">
+                  <img src="images/portfolio/15.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/16.png">
+                  <img src="images/portfolio/16.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/17.png">
+                  <img src="images/portfolio/17.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/18.png">
+                  <img src="images/portfolio/18.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/19.png">
+                  <img src="images/portfolio/19.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/20.png">
+                  <img src="images/portfolio/20.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail todo testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/21.png">
+                  <img src="images/portfolio/21.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/22.png">
+                  <img src="images/portfolio/22.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail testimonios"
+              >
+                <a class="popup-img" href="images/portfolio/23.png">
+                  <img src="images/portfolio/23.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/24.png">
+                  <img src="images/portfolio/24.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/25.png">
+                  <img src="images/portfolio/25.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/26.png">
+                  <img src="images/portfolio/26.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/27.png">
+                  <img src="images/portfolio/27.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/28.png">
+                  <img src="images/portfolio/28.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/29.png">
+                  <img src="images/portfolio/29.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/30.png">
+                  <img src="images/portfolio/30.png" alt="img" />
+                </a>
+              </div>
+              <div
+                class="col-lg-4 col-md-6 portfolio-thumbnail papeleria"
+              >
+                <a class="popup-img" href="images/portfolio/31.png">
+                  <img src="images/portfolio/31.png" alt="img" />
                 </a>
               </div>
             </div>
@@ -251,29 +440,37 @@
     </div>
     <!-- End section portfolio -->
 
-    <!-- start sectoion contact -->
+    <!-- start section contact -->
     <div id="contact" class="paddsection">
       <div class="container">
         <div class="contact-block1">
           <div class="row">
             <div class="col-lg-6">
               <div class="contact-contact">
-                <h2 class="mb-30">GET IN TOUCH</h2>
-
-                <ul class="contact-details">
-                  <li><span>23 Main, Street</span></li>
-                  <li><span>New York, United States</span></li>
-                  <li><span>+88 01912704287</span></li>
-                  <li><span>example@example.com</span></li>
+                <img class="imagencitas" src="images/uno.png" alt="">
+                <ul>
+                  <li>Pago y Envío de Comprobante</li>
+                  <li>Envío de Brief</li>
+                </ul>
+                <img class="imagencitas" src="images/dos.png" alt="">
+                <ul>
+                  <li>Proceso Creativo</li>
+                  <li>Envío de Propuestas</li>
+                  <li>Correcciones</li>
+                </ul>
+                <img class="imagencitas" src="images/tres.png" alt="">
+                <ul>
+                  <li>Aprobación</li>
+                  <li>Envío del Producto Final</li>
                 </ul>
               </div>
             </div>
 
             <div class="col-lg-6">
-              <form action="" method="post" role="form" class="contactForm">
+              <form name="contact" method="POST" data-netlify="true">
                 <div class="row">
                   <div id="sendmessage">
-                    Your message has been sent. Thank you!
+                    Su mensaje ha sido enviado. Gracias!
                   </div>
                   <div id="errormessage"></div>
 
@@ -286,7 +483,7 @@
                         id="name"
                         placeholder="Nombre"
                         data-rule="minlen:4"
-                        data-msg="Please enter at least 4 chars"
+                        data-msg="Este campo es necesario. Introduzca al menos 4 caracteres"
                       />
                       <div class="validation"></div>
                     </div>
@@ -295,13 +492,13 @@
                   <div class="col-lg-6">
                     <div class="form-group">
                       <input
-                        type="email"
-                        class="form-control"
-                        name="email"
-                        id="email"
+                      type="text"
+                      name="lastname"
+                      class="form-control"
+                      id="lastname"
                         placeholder="Apellido"
-                        data-rule="email"
-                        data-msg="Please enter a valid email"
+                        data-rule="apellido"
+                        data-msg="Este campo es necesario. Introduzca al menos 4 caracteres"
                       />
                       <div class="validation"></div>
                     </div>
@@ -309,13 +506,13 @@
                   <div class="col-lg-6">
                     <div class="form-group contact-block1">
                       <input
-                        type="text"
-                        name="name"
+                        type="email"
                         class="form-control"
-                        id="name"
+                        name="email"
+                        id="email"
                         placeholder="Correo Electrónico"
-                        data-rule="minlen:4"
-                        data-msg="Please enter at least 4 chars"
+                        data-rule="email"
+                        data-msg="Por favor ingrese un correo electrónico válido."
                       />
                       <div class="validation"></div>
                     </div>
@@ -324,13 +521,13 @@
                   <div class="col-lg-6">
                     <div class="form-group">
                       <input
-                        type="email"
+                        type="phone-number"
                         class="form-control"
-                        name="email"
-                        id="email"
+                        name="phone-number"
+                        id="phone-number"
                         placeholder="Número Telefónico"
-                        data-rule="email"
-                        data-msg="Please enter a valid email"
+                        data-rule="phone-number"
+                        data-msg="Por favor ingrese un número de teléfono válido."
                       />
                       <div class="validation"></div>
                     </div>
@@ -343,7 +540,7 @@
                         name="message"
                         rows="12"
                         data-rule="required"
-                        data-msg="Please write something for us"
+                        data-msg="Por favor agregue su mensaje aquí."
                         placeholder="Mensaje"
                       ></textarea>
                       <div class="validation"></div>
@@ -372,13 +569,13 @@
         <div class="socials-media text-center">
           <ul class="list-unstyled">
             <li>
-              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.facebook.com/PauPics"><ion-icon name="logo-facebook"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="https://www.instagram.com/pau_pics/"><ion-icon name="logo-instagram"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><ion-icon name="logo-behance"></ion-icon></a>
+              <a href="https://www.behance.net/paupics"><ion-icon name="logo-behance"></ion-icon></a>
             </li>
           </ul>
         </div>
@@ -387,6 +584,7 @@
 
         <div class="credits">
           Designed by <a href="https://designdesk.tech/">Design Desk</a>
+          <img id="easter" class="carlito" src="images/image 8.png" alt="">
         </div>
       </div>
     </div>
