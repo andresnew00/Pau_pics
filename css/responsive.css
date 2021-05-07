@@ -2,8 +2,15 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (min-width: 1200px) {
+@media (max-width: 1250px) {
+  #header .header-content {
+    margin-top: 8em;
+    margin-bottom: 10em;
+  }
 
+  #main-nav {
+    margin-top: -8em;
+  }
 }
 
 /** Width between 992px to 1199px
