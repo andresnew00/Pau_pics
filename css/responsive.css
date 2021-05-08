@@ -394,7 +394,17 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
   }
+  .lista {
+    flex-direction: column;
+    
+  }
+
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -465,7 +475,17 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
   }
+  .lista {
+    flex-direction: column;
+    
+  }
+
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;

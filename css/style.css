@@ -556,10 +556,10 @@ button:hover {
 }
 
 #contact ul {
-  list-style-type: space-counter;
   font-weight: 700;
-  font-size: 1.4em;
-  padding-left: 2.8em;
+  color: #3d3d3d;
+  font-size: 1.2em;
+  padding-left: 2.6em;
 }
 
 #contact li {
@@ -567,7 +567,16 @@ button:hover {
 }
 
 .contact-contact {
+  display: flex;
+  gap: 4em;
+}
 
+.lista {
+  justify-content: space-around;
+}
+
+.echate {
+  margin-top: 4em;
 }
 
 .contact-details {
