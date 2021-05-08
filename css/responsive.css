@@ -2,7 +2,7 @@
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@media (max-width: 1250px) {
+ @media (max-width: 1250px) {
   #header .header-content {
     margin-top: 10em;
   }
@@ -11,6 +11,319 @@
     margin-top: -10em;
   }
 }
+/* fold */
+@media (max-width: 280px) {
+  #header .header-content {
+    margin-top: 10em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+  }
+
+  #main-nav {
+    margin-top: -10em;
+  }
+}
+
+@media (max-height: 280px) {
+  #header .header-content {
+    margin-top: 10em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+    padding-bottom: 5em;
+  }
+
+  .main-image {
+    display: none;
+  }
+
+  #main-nav {
+    margin-top: -10em;
+  }
+}
+
+@media (max-width: 512px) {
+  #header .header-content {
+    margin-top: 5em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+  }
+
+  .main-image {
+    width: 18em;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+}
+
+@media (max-height: 512px) {
+  #header .header-content {
+    margin-top: 12em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+  }
+
+  .main-image {
+    width: 15em;
+  }
+
+  #main-nav {
+    margin-top: -12em;
+  }
+}
+
+/* end of fold */
+
+/* surface duo */
+
+@media (max-width: 540px) {
+  #header .header-content {
+    margin-top: 5em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+  }
+
+  .main-image {
+    width: 18em;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+}
+
+@media (max-height: 540px) {
+  #header .header-content {
+    margin-top: 10em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: .5em;
+  }
+
+  .main-image {
+    width: 15em;
+  }
+
+  #main-nav {
+    margin-top: -10em;
+  }
+}
+
+/* end of surface duo */
+
+/* ipad pro */
+
+@media (max-width: 1024px) {
+  #header .header-content {
+    margin-top: 5em;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: 1.2em;
+  }
+
+  #header button {
+    font-size: 1em;
+  }
+
+  .rectangle {
+    width: 14em;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+}
+
+@media (max-height: 1024px) {
+  #header .header-content {
+    margin-top: 4em;
+    flex-direction: row;
+  }
+
+  #main-nav {
+    margin-top: -4em;
+  }
+}
+
+/* end of ipad pro */
+
+/* ipad comun y corriente */
+
+@media (max-width: 768px) {
+  #header .header-content {
+    margin-top: 5em;
+    flex-direction: column;
+  }
+
+  #header .main-content {
+    padding: 2em;
+    font-size: 1.2em;
+  }
+
+  #header button {
+    font-size: 1em;
+  }
+
+  .rectangle {
+    width: 14em;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+}
+
+/* end of ipad */
+
+/* iphone Xpensive */
+
+@media (max-height: 375px) {
+  #header .header-content {
+    margin-top: 5em;
+    flex-direction: column;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+
+  .main-image {
+    display: none;
+  }
+}
+
+/* end of iphone */
+
+/* iphone viejitos */
+
+@media (max-width: 414px) {
+  #header .header-content {
+    margin-top: 8em;
+  }
+
+  #header .main-content {
+    padding: 1em;
+    font-size: 1.2em;
+  }
+
+  #header button {
+    font-size: 1em;
+  }
+
+  .rectangle {
+    width: 14em;
+  }
+
+  #main-nav {
+    margin-top: -8em;
+  }
+}
+
+@media (max-height: 414px) {
+  #header .header-content {
+    margin-top: 5em;
+    flex-direction: column;
+  }
+
+  #main-nav {
+    margin-top: -5em;
+  }
+
+  .main-image {
+    display: none;
+  }
+}
+
+@media (max-height: 375px) {
+  #header .header-content {
+    margin-top: 8em;
+    flex-direction: column;
+  }
+
+  #main-nav {
+    margin-top: -8em;
+  }
+
+  .main-image {
+    display: none;
+  }
+}
+
+/* end of viejitos */
+
+/* iphone 5 / SE */
+
+@media (max-width: 320px) {
+  #header .header-content {
+    margin-top: 12em;
+  }
+
+  #header .main-content {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  #header button {
+    font-size: 1em;
+  }
+
+  .main-image {
+    width: 12em;
+  }
+
+  #main-nav {
+    margin-top: -12em;
+  }
+}
+
+/* end of iphoen 5 */
+
+/* galaxy s5 */
+
+@media (max-width: 360px) {
+  #header .header-content {
+    margin-top: 8em;
+  }
+
+  #header .main-content {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  #header button {
+    font-size: 1em;
+  }
+
+  .main-image {
+    width: 12em;
+  }
+
+  #main-nav {
+    margin-top: -8em;
+  }
+}
+
+/* end of galaxy s5 */
 
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
